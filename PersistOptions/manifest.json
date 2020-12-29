@@ -1,0 +1,12 @@
+{
+  "Name": "Persist Options",
+  "Author": "DragonMaus",
+  "Version": "1.0.0",
+  "Description": "Save options and load them when starting a new game",
+  "UniqueID": "DragonMaus.PersistOptions",
+  "EntryDll": "PersistOptions.dll",
+  "MinimumApiVersion": "3.8.0",
+  "UpdateKeys": [
+    "GitHub:dragonmaus/persist-options"
+  ]
+}
