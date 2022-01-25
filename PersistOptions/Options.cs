@@ -4,10 +4,7 @@ namespace PersistOptions
 {
     internal class Options
     {
-        internal Options()
-        {
-            SetFromGame();
-        }
+        internal Options() => SetFromGame();
 
         internal void LoadToGame()
         {
@@ -66,7 +63,6 @@ namespace PersistOptions
             gameOptions.stowingMode = stowingMode;
             gameOptions.gamepadMode = gamepadMode;
             gameOptions.actionButton = actionButton;
-            gameOptions.toolSwapButton = toolSwapButton;
             gameOptions.cancelButton = cancelButton;
             gameOptions.useToolButton = useToolButton;
             gameOptions.moveUpButton = moveUpButton;
@@ -152,7 +148,6 @@ namespace PersistOptions
             stowingMode = gameOptions.stowingMode;
             gamepadMode = gameOptions.gamepadMode;
             actionButton = gameOptions.actionButton;
-            toolSwapButton = gameOptions.toolSwapButton;
             cancelButton = gameOptions.cancelButton;
             useToolButton = gameOptions.useToolButton;
             moveUpButton = gameOptions.moveUpButton;
@@ -234,7 +229,6 @@ namespace PersistOptions
         public StardewValley.Options.ItemStowingModes stowingMode;
         public StardewValley.Options.GamepadModes gamepadMode;
         public InputButton[] actionButton;
-        public InputButton[] toolSwapButton;
         public InputButton[] cancelButton;
         public InputButton[] useToolButton;
         public InputButton[] moveUpButton;
